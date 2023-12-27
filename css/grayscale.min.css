@@ -15,6 +15,10 @@ body {
     background-color: #fff;
 }
 
+.left-aligned {
+    text-align: left;
+}
+
 .intro,
 body,
 html {
