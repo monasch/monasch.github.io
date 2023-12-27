@@ -318,17 +318,17 @@ a:hover {
 }
 
 .btn-default {
-    border: 1px solid #00b359;
-    color: #00b359;
+    border: 1px solid var(--theme-color);
+    color: var(--theme-color);
     background-color: transparent;
 }
 
 .btn-default:focus,
 .btn-default:hover {
-    border: 1px solid #00b359;
+    border: 1px solid var(--theme-color);
     outline: 0;
     color: #000;
-    background-color: #00b359;
+    background-color: var(--theme-color);
 }
 
 ul.banner-social-buttons {
