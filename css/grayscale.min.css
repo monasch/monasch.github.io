@@ -5,8 +5,8 @@
  */
 
 :root {
-  --theme-color: #15508D; /* lighter:  #69abd0 */
-  --theme-color-hover: #4487bd;
+  --theme-color: #3580b9; /*#15508D;  lighter:  #69abd0 */
+  --theme-color-hover: #0d3d72; /* #4487bd; */
   --text-color: #000;
   --bg-color: #fff;
 }
