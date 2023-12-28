@@ -432,3 +432,29 @@ img.resize {
     }
 }
 
+/* Style for the publication title */
+.pub-title {
+  font-size: 18px; /* Adjust as needed */
+  font-weight: bold;
+  margin-bottom: 2px; /* Space below the title */
+}
+
+/* Style for the publication authors */
+.pub-authors {
+  font-size: 18px; /* Adjust as needed */
+  margin-bottom: 2px; /* Space below the authors */
+}
+
+/* Style for the publication venue */
+.pub-venue {
+  font-size: 18px; /* Adjust as needed */
+  font-style: italic;
+  margin-bottom: 2px; /* Space below the venue before the links */
+}
+
+/* Style for the publication links */
+.pub-links {
+  font-size: 14px; /* Adjust as needed */
+  font-weight: bold;
+}
+
