@@ -394,7 +394,7 @@ img.resize {
 .pub-entry {
     display: flex;
     align-items: center; /* Vertically center the contents */
-    margin-bottom: 20px; /* Space between entries */
+    margin-bottom: 50px; /* Space between entries */
 }
 
 /* The class for the image container */
