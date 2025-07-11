@@ -2,264 +2,232 @@
 <html lang="en">
 
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>Mona Schirmer's Website</title>
 
-    <title>Mona Schirmer's Website</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom Fonts -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" rel="stylesheet" type="text/css">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" rel="stylesheet" type="text/css">
-    <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+  <!-- Theme CSS -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <span class="light">Mona</span> Schirmer
-                </a>
-            </div>
+  <!-- Navigation -->
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          Menu <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top"><span class="light">Mona</span> Schirmer</a>
+      </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#papers">Publications</a>
-                    </li>
-		    <li>
-		        <a href="./CV_MonaSchirmer.pdf" target="_blank">CV</a>
-		    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <li class="hidden"><a href="#page-top"></a></li>
+          <li><a class="page-scroll" href="#about">About</a></li>
+          <li><a class="page-scroll" href="#papers">Publications</a></li>
+          <li><a href="./CV_MonaSchirmer.pdf" target="_blank">CV</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-            	<!-- <img src="./img/photo_rock.jpg" max-height="300" width="300" alt="Lucy Li in a sweater with a big rock" hspace="20" vspace="20"> -->
-            	<br><br><br>
-                
-                    <p><b>Intro </b> Hi! I'm an <a href="https://ellis.eu/">ELLIS</a> PhD student at the <a href="https://amlab.science.uva.nl/">Amsterdam Machine Learning Lab</a> supervised by <a href="https://enalisnick.github.io/">Eric Nalisnick</a> and <a href="https://www.bosch-ai.com/research/researcher-pages/t_overviewpage_133.html">Dan Zhang</a>. 
-                    </p>
+  <!-- About Section -->
+  <section id="about" class="container content-section">
+    <div class="row" style="margin-top:80px;"> <!-- pushes content below fixed nav -->
+      <!-- PHOTO -->
+      <div class="col-md-4 col-sm-5 text-center">
+        <img src="img/profile.jpg"
+             class="img-responsive img-circle"
+             style="max-width:230px; margin:40px auto;"
+             alt="Mona Schirmer">
+      </div>
 
-            <p> <b>Research Interests </b> Generally speaking, I'm interested in probabilistic modelling, sequential settings and generalization. 
-                My current research focuses on probabilistic modelling of non-stationary data. In this context, I worked on <a href="https://proceedings.mlr.press/v162/schirmer22a.html">deep sequence models for continuous time</a> and <a href="https://arxiv.org/abs/2407.12492/">unsupervised adaptation under distribution shifts</a>.
-                Despite that, I'm also interested in ML - and probabilistic modelling in particular - for <a href="https://aclanthology.org/2023.findings-emnlp.774/">applications in Social Science</a>.</p>
-                  
-		    <p> <b>Bio </b> I graduated with a joint Master's in statistics from the <a href="https://www.tu.berlin/en/">Technical University Berlin</a> and <a href="https://www.hu-berlin.de/en">Humboldt University Berlin</a>. 
-			I wrote my Master's thesis on continuous-time modeling under the supervision of <a href="http://maja-rita-rudolph.com">Maja Rudolph</a> at the <a href="https://www.bosch-ai.com/">Bosch Center for Artificial Intelligence</a>.
-			I spent some time in France, where I obtained a French engineering degree in applied mathematics and economics from <a href="https://www.ensae.fr/en">ENSAE</a>. 
-			In my Bachelor’s, I studied economics and political science at <a href="https://www.hu-berlin.de/en">Humboldt University Berlin</a> and the <a href="https://www.lmu.de/en/">University of Munich</a>.</p>
-		    
-  
-		    <p>I'm open to collaborations, feel free to reach out!</p>
-            </div>
-        </div>
-    </section>
+      <!-- INTRO TEXT -->
+      <div class="col-md-8 col-sm-7">
+        <h2>About Me</h2>
 
+        <p><b>Intro&nbsp;</b> Hi! I’m an <a href="https://ellis.eu/">ELLIS</a> PhD student at the
+          <a href="https://amlab.science.uva.nl/">Amsterdam Machine Learning Lab</a>,
+          supervised by <a href="https://enalisnick.github.io/">Eric&nbsp;Nalisnick</a> and
+          <a href="https://www.bosch-ai.com/research/researcher-pages/t_overviewpage_133.html">Dan&nbsp;Zhang</a>.
+        </p>
 
-    <!-- Papers Section -->
-    <section id="papers" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
-        	<h2 class="left-aligned">Publications</h2>
+        <p><b>Research Interests&nbsp;</b> I’m broadly interested in probabilistic modelling,
+          sequential settings and generalization. Current work focuses on modelling non-stationary
+          data, including <a href="https://proceedings.mlr.press/v162/schirmer22a.html">
+          deep sequence models for continuous time</a> and
+          <a href="https://arxiv.org/abs/2407.12492/">unsupervised test-time adaptation</a>.
+          I also enjoy applying ML&nbsp;&mdash; especially probabilistic methods&nbsp;&mdash; to
+          <a href="https://aclanthology.org/2023.findings-emnlp.774/">social-science problems</a>.
+        </p>
 
-          <div class="pub-entry">
-            <div class="pub-image">
-          <img src="./img/project6.png" alt="monitor" max-height="300px" width="300px" >
-            </div>
-        <div class="pub-text">
-            <div class="pub-title">
-              Monitoring Risks in Test-time Adaptation
-            </div>
-            <div class="pub-authors">
-              <u>Mona Schirmer*</u>, Metod Jazbec*, Christian Naesseth, Eric Nalisnick
-            </div>
-            <div class="pub-venue">
-              Preprint
-            </div>
+        <p><b>Bio&nbsp;</b> I earned a joint M.Sc. in statistics from
+          TU&nbsp;Berlin and Humboldt-Universität, writing my thesis at the
+          <a href="https://www.bosch-ai.com/">Bosch Center for Artificial Intelligence</a>.
+          I also hold an engineering degree from <a href="https://www.ensae.fr/en">ENSAE</a>.
+          Earlier, I studied economics and political science at HU&nbsp;Berlin and LMU&nbsp;Munich.
+        </p>
+
+        <p>I’m open to collaborations&nbsp;&mdash; feel free to reach out!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Papers Section -->
+  <section id="papers" class="container content-section text-center">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h2 class="left-aligned">Publications</h2>
+
+        <!-- Publication 1 -->
+        <div class="pub-entry">
+          <div class="pub-image">
+            <img src="img/project6.png" alt="monitor" style="max-height:300px; width:300px;">
+          </div>
+          <div class="pub-text">
+            <div class="pub-title">Monitoring Risks in Test-time Adaptation</div>
+            <div class="pub-authors"><u>Mona Schirmer*</u>, Metod&nbsp;Jazbec*, Christian&nbsp;Naesseth, Eric&nbsp;Nalisnick</div>
+            <div class="pub-venue">Preprint</div>
             <div class="pub-links">
-              <a href="https://openreview.net/forum?id=k14ktterKG">ABS</a> | 
+              <a href="https://openreview.net/forum?id=k14ktterKG">ABS</a> |
               <a href="https://openreview.net/pdf?id=k14ktterKG">PDF</a>
             </div>
           </div>
+        </div>
+
+        <!-- Publication 2 -->
+        <div class="pub-entry">
+          <div class="pub-image">
+            <img src="img/project5.png" alt="STAD" style="max-height:300px; width:300px;">
           </div>
-
-		    
-            <div class="pub-entry">
-		    	<div class="pub-image">
-				<img src="./img/project5.png" alt="STAD" max-height="300px" width="300px" >
-		    	</div>
-			<div class="pub-text">
-			    <div class="pub-title">
-			      Temporal Test-Time Adaptation with State-Space Models
-			    </div>
-			    <div class="pub-authors">
-			      <u>Mona Schirmer</u>, Dan Zhang, Eric Nalisnick
-			    </div>
-			    <div class="pub-venue">
-			      Preprint
-			    </div>
-			    <div class="pub-links">
-			      <a href="https://arxiv.org/abs/2407.12492/">ABS</a> | 
-			      <a href="https://arxiv.org/pdf/2407.12492">PDF</a>
-			    </div>
-			  </div>
-		    </div>
-
-		    <div class="pub-entry">
-		    	<div class="pub-image">
-				<img src="./img/project4.png" alt="DivDis" max-height="300px" width="300px" >
-		    	</div>
-			<div class="pub-text">
-			    <div class="pub-title">
-			      Beyond Top-Class Agreement: Using Divergences to Forecast Performance under Distribution Shift
-			    </div>
-			    <div class="pub-authors">
-			      <u>Mona Schirmer</u>, Dan Zhang, Eric Nalisnick
-			    </div>
-			    <div class="pub-venue">
-			      DistShift Workshop @ NeurIPS 2023
-			    </div>
-			    <div class="pub-links">
-			      <a href="https://arxiv.org/abs/2312.08033/">ABS</a> | 
-			      <a href="https://arxiv.org/pdf/2312.08033.pdf">PDF</a>
-			    </div>
-			  </div>
-		    </div>
-		    
-		    <div class="pub-entry">
-		    	<div class="pub-image">
-				<img src="./img/project3.png" alt="EconBERTa" max-height="300px" width="300px" >
-		    	</div>
-			<div class="pub-text">
-			    <div class="pub-title">
-			      EconBERTa: Towards Robust Extraction of Named Entities in Economics
-			    </div>
-			    <div class="pub-authors">
-			      Karim Lasri, Pedro Vitor Quinta de Castro, <u>Mona Schirmer</u>, Luis Eduardo San Martin, Linxi Wang, Tomáš Dulka, Haaya Naushan, John Pougué-Biyong, Arianna Legovini, Samuel Fraiberger
-			    </div>
-			    <div class="pub-venue">
-			      EMNLP Findings 2023
-			    </div>
-			    <div class="pub-links">
-			      <a href="https://aclanthology.org/2023.findings-emnlp.774/">ABS</a> | 
-			      <a href="https://aclanthology.org/2023.findings-emnlp.774.pdf">PDF</a>
-			    </div>
-			  </div>
-		    </div>
-		    
-		    <div class="pub-entry">
-		    	<div class="pub-image">
-				<img src="./img/project2.png" alt="CRU" max-height="300px" width="300px" >
-		    	</div>
-			<div class="pub-text">
-			    <div class="pub-title">
-			      Modeling Irregular Time Series with Continuous Recurrent Units
-			    </div>
-			    <div class="pub-authors">
-			      <u>Mona Schirmer</u>, Mazin Eltayeb, Stefan Lessmann, Maja Rudolph
-			    </div>
-			    <div class="pub-venue">
-			      ICML 2022
-			    </div>
-			    <div class="pub-links">
-			      <a href="https://proceedings.mlr.press/v162/schirmer22a.html">ABS</a> | 
-			      <a href="https://proceedings.mlr.press/v162/schirmer22a/schirmer22a.pdf">PDF</a> | 
-			      <a href="https://slideslive.com/38983853/modeling-irregular-time-series-with-continuous-recurrent-units?locale=de">VIDEO</a> | 
-			      <a href="https://github.com/boschresearch/Continuous-Recurrent-Units">CODE</a>
-			    </div>
-			  </div>
-		    </div>
-		    
+          <div class="pub-text">
+            <div class="pub-title">Temporal Test-Time Adaptation with State-Space Models</div>
+            <div class="pub-authors"><u>Mona Schirmer</u>, Dan&nbsp;Zhang, Eric&nbsp;Nalisnick</div>
+            <div class="pub-venue">Preprint</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2407.12492/">ABS</a> |
+              <a href="https://arxiv.org/pdf/2407.12492">PDF</a>
             </div>
+          </div>
         </div>
-    </section>
-	
-    <!-- Links Section -->
-    <section id="links" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="mailto:m.c.schirmer@uva.nl" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
-                    </li>
-		    <li>
-                        <a href="https://scholar.google.com/citations?user=6ubuKMwAAAAJ&hl=en&oi=ao" class="btn btn-default btn-lg"><i class="ai ai-google-scholar"></i> <span class="network-name">GoogleScholar</span></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/monaschir" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/monasch" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/mona-schirmer-731365119/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-                    </li>
-                </ul>
+
+        <!-- Publication 3 -->
+        <div class="pub-entry">
+          <div class="pub-image">
+            <img src="img/project4.png" alt="DivDis" style="max-height:300px; width:300px;">
+          </div>
+          <div class="pub-text">
+            <div class="pub-title">Beyond Top-Class Agreement: Using Divergences to Forecast Performance under Distribution Shift</div>
+            <div class="pub-authors"><u>Mona Schirmer</u>, Dan&nbsp;Zhang, Eric&nbsp;Nalisnick</div>
+            <div class="pub-venue">DistShift Workshop @ NeurIPS 2023</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2312.08033/">ABS</a> |
+              <a href="https://arxiv.org/pdf/2312.08033.pdf">PDF</a>
             </div>
+          </div>
         </div>
-    </section>
 
-    <!-- Footer for copyright -->
-    <footer>
-        <div class="container text-center">
-            <p>Template adjusted from <a href="https://lucy3.github.io/">Lucy Li</a>.</p>
+        <!-- Publication 4 -->
+        <div class="pub-entry">
+          <div class="pub-image">
+            <img src="img/project3.png" alt="EconBERTa" style="max-height:300px; width:300px;">
+          </div>
+          <div class="pub-text">
+            <div class="pub-title">EconBERTa: Towards Robust Extraction of Named Entities in Economics</div>
+            <div class="pub-authors">
+              Karim&nbsp;Lasri, Pedro&nbsp;Vitor&nbsp;Quinta&nbsp;de&nbsp;Castro, <u>Mona&nbsp;Schirmer</u>,
+              Luis&nbsp;Eduardo&nbsp;San&nbsp;Martin, Linxi&nbsp;Wang, Tomáš&nbsp;Dulka,
+              Haaya&nbsp;Naushan, John&nbsp;Pougué-Biyong, Arianna&nbsp;Legovini, Samuel&nbsp;Fraiberger
+            </div>
+            <div class="pub-venue">EMNLP Findings 2023</div>
+            <div class="pub-links">
+              <a href="https://aclanthology.org/2023.findings-emnlp.774/">ABS</a> |
+              <a href="https://aclanthology.org/2023.findings-emnlp.774.pdf">PDF</a>
+            </div>
+          </div>
         </div>
-    </footer>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
+        <!-- Publication 5 -->
+        <div class="pub-entry">
+          <div class="pub-image">
+            <img src="img/project2.png" alt="CRU" style="max-height:300px; width:300px;">
+          </div>
+          <div class="pub-text">
+            <div class="pub-title">Modeling Irregular Time Series with Continuous Recurrent Units</div>
+            <div class="pub-authors"><u>Mona Schirmer</u>, Mazin&nbsp;Eltayeb, Stefan&nbsp;Lessmann, Maja&nbsp;Rudolph</div>
+            <div class="pub-venue">ICML 2022</div>
+            <div class="pub-links">
+              <a href="https://proceedings.mlr.press/v162/schirmer22a.html">ABS</a> |
+              <a href="https://proceedings.mlr.press/v162/schirmer22a/schirmer22a.pdf">PDF</a> |
+              <a href="https://slideslive.com/38983853/modeling-irregular-time-series-with-continuous-recurrent-units?locale=de">VIDEO</a> |
+              <a href="https://github.com/boschresearch/Continuous-Recurrent-Units">CODE</a>
+            </div>
+          </div>
+        </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      </div>
+    </div>
+  </section>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <!-- Links Section -->
+  <section id="links" class="container content-section text-center">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <ul class="list-inline banner-social-buttons">
+          <li>
+            <a href="mailto:m.c.schirmer@uva.nl" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i><span class="network-name">Email</span></a>
+          </li>
+          <li>
+            <a href="https://scholar.google.com/citations?user=6ubuKMwAAAAJ&hl=en&oi=ao" class="btn btn-default btn-lg"><i class="ai ai-google-scholar"></i><span class="network-name">GoogleScholar</span></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/monaschir" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a>
+          </li>
+          <li>
+            <a href="https://github.com/monasch" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i><span class="network-name">GitHub</span></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/mona-schirmer-731365119/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i><span class="network-name">LinkedIn</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-    <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
-    
-    <!-- Publications  -->
-    <script src="js/common.js"></script>
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>Template adjusted from <a href="https://lucy3.github.io/">Lucy Li</a>.</p>
+    </div>
+  </footer>
 
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="js/grayscale.min.js"></script>
+  <script src="js/common.js"></script>
 </body>
-
 </html>
