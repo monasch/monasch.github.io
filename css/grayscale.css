@@ -87,7 +87,7 @@ a:hover {
 }
 
 .navbar-custom .navbar-toggle {
-    color: #fff;
+    color: #000;
     background-color: rgba(255, 255, 255, .2);
     font-size: 12px
 }
